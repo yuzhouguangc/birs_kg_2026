@@ -10,7 +10,12 @@ body { margin: 0; font-family: Arial, Helvetica, sans-serif; color: var(--text);
 .nav-links a { color: white; text-decoration: none; margin-left: 22px; font-size: 14px; }
 .nav-links a:hover { text-decoration: underline; }
 .hero { height: 360px; background: linear-gradient(rgba(11,60,111,.65), rgba(11,60,111,.65)), url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=80'); background-size: cover; background-position: center; display: flex; align-items: center; justify-content: center; color: white; text-align: center; }
-.hero h1 { font-size: 46px; margin: 0 0 12px; }
+.hero h1 {
+    font-size: 52px;
+    font-weight: 700;
+    margin: 0 0 12px;
+    color: #ffffff;
+    text-shadow: 0 3px 10px rgba(0,0,0,0.35);}
 .hero p { font-size: 20px; margin: 8px 0; }
 .container { width: min(980px, 88%); margin: 44px auto; line-height: 1.65; }
 .page { min-height: 620px; }
