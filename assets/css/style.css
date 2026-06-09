@@ -75,4 +75,10 @@ footer { text-align: center; padding: 24px; background: #f3f4f6; font-size: 14px
         grid-template-columns: 1fr;
     }
 }
+
+table th:first-child,
+table td:first-child {
+    width: 180px;
+    min-width: 180px;
+}
 @media (max-width: 700px) { .navbar { flex-direction: column; gap: 12px; } .nav-links a { margin: 0 8px; } .hero h1 { font-size: 34px; } }
