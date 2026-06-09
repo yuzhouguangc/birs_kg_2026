@@ -28,7 +28,7 @@ th { background: var(--light-blue); }
 .card { border: 1px solid #d1d5db; border-radius: 10px; padding: 18px; background: #fafafa; }
 footer { text-align: center; padding: 24px; background: #f3f4f6; font-size: 14px; color: #4b5563; }
 .organizers-title {
-    color: #078c45;
+    color: #B22222;
     font-size: 46px;
     font-weight: 500;
     margin-bottom: 30px;
@@ -58,7 +58,7 @@ footer { text-align: center; padding: 24px; background: #f3f4f6; font-size: 14px
 }
 
 .organizer p {
-    color: #078c45;
+    color: #B22222;
     font-size: 22px;
     line-height: 1.25;
     margin: 6px 0 0;
