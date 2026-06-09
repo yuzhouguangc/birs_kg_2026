@@ -27,4 +27,52 @@ th { background: var(--light-blue); }
 .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 18px; }
 .card { border: 1px solid #d1d5db; border-radius: 10px; padding: 18px; background: #fafafa; }
 footer { text-align: center; padding: 24px; background: #f3f4f6; font-size: 14px; color: #4b5563; }
+.organizers-title {
+    color: #078c45;
+    font-size: 46px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.organizer-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 55px 45px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.organizer img {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 18px;
+}
+
+.organizer h3 {
+    color: #0067c5;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.organizer p {
+    color: #078c45;
+    font-size: 22px;
+    line-height: 1.25;
+    margin: 6px 0 0;
+}
+
+@media (max-width: 900px) {
+    .organizer-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 560px) {
+    .organizer-grid {
+        grid-template-columns: 1fr;
+    }
+}
 @media (max-width: 700px) { .navbar { flex-direction: column; gap: 12px; } .nav-links a { margin: 0 8px; } .hero h1 { font-size: 34px; } }
